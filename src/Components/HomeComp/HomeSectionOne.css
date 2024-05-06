@@ -1,0 +1,445 @@
+.firstSectionMain{
+    position: relative;
+}
+
+.firstSectionDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.leftAndRightDiv{
+    display: flex;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+
+.leftSectionOne{
+    width: 80%;
+}
+
+
+.leftSectionOne h2{
+    font-size: 40px;
+}
+
+
+.furnDesign{
+    border-bottom: 7px solid   rgb(110, 192, 110);
+    width: fit-content;
+    color:  rgb(110, 192, 110);
+    position: relative;
+}
+
+
+
+.leftSectionOne p{
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: gray;
+}
+
+
+.leftSectionOne button{
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ff7c0a;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: ;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.leftSectionOne button:hover{
+    color: white;
+
+}
+.leftSectionOne button::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color:  rgb(110, 192, 110);
+    z-index: -1;
+    border-radius: 5px;
+    transition: 0.2s ease all;
+    transform: scale(0, 1);
+
+    transform-origin: bottom left;
+    transition: transform 500ms cubic-bezier(0.86, 0, 0.07, 1);
+    transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+}
+.leftSectionOne button:hover::after{
+    transform: scale(1, 1);
+    transform-origin: top left;
+}
+
+
+
+
+.rightSectionOne{
+    width: 100%;
+}
+
+.images{
+    width: 100%;
+    height: 80%;
+}
+
+
+.dotDiv{
+    position: absolute;
+    right: 60px;
+    top: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.dotDiv p{
+    cursor: pointer;
+}
+
+
+/* ============ SectionOne two ==== */
+.categorySection{
+    padding: 20px 10%;
+}
+
+
+.categorySection h2{
+    text-align: center;
+    font-size: 38px;
+}
+
+
+.categoryDiv{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.eachCategory{
+    width: 100%;
+    text-align: center;
+    border: solid 1px rgb(205, 205, 205);
+    padding: 20px;
+    cursor: pointer;
+}
+
+
+.eachCategory:hover{
+    background-color: #ff7c0a;
+    color: white;
+    transition: all ease-in-out 0.5s;
+}
+
+.eachCategory p{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.eachCategory div{
+    font-size: 50px;
+    font-weight: 200;
+}
+
+
+/* ===== sectionOne three ======== */
+
+.bannerSection{
+    display: flex;
+    padding: 20px 10%;
+    gap: 20px;
+}
+
+
+.bannerDivOne{
+    width: 100%;
+    position: relative;
+}
+
+.bannImage{
+    width: 100%;
+}
+
+.bannerDivTwo{
+    width: 100%;
+}
+
+.banerDivOneText{
+    position: absolute;
+    top: 70px;
+    left: 10%;
+    /* text-align: center; */
+    color: white;
+}
+
+.banerDivOneText h4{
+    font-size: 20px;
+    display: flex;
+    gap: 5px;
+}
+
+.spanDiv1{
+    color: #ff7c0a;
+    font-weight: 600;
+}
+
+.banerDivOneText h2{
+    font-size: 40px;
+    padding-top: 10px;
+    display: flex;
+    gap: 5px;
+    
+}
+
+.banerDivOneText p{
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+.banerDivOneText button{
+    font-size: 15px;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color:  rgb(72, 209, 72);
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+
+}
+
+
+.banerDivOneText button:hover{
+    background-color: #ff7c0a;
+    transition: all 1.1s ;
+}
+
+
+
+.bannerDivTwo{
+    position: relative;
+}
+
+.banerDivTwoText{
+    position: absolute;
+    top: 70px;
+    left: 10%;
+    text-align: left;
+}
+
+.banerDivTwoText h4{
+    font-size: 20px;
+    display: flex;
+    gap: 5px;
+    padding: 10px 0;
+}
+
+.spanDiv2{
+    color: #ff7c0a;
+    font-weight: 600;
+}
+
+.banerDivTwoText h2{
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.banerDivTwoText p{
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+
+.banerDivTwoText button{
+    font-size: 15px;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: #ff7c0a;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+
+}
+
+
+.banerDivTwoText button:hover{
+    background-color:   rgb(110, 192, 110);
+    transition: all 1.1s ;
+}
+
+
+.bannerDivThree{
+    position: relative;
+    padding: 20px 10%;
+}
+
+.banerDivThreeText{
+    position: absolute;
+    top: 70px;
+    left: 15%;
+    text-align: left;
+}
+
+.bannImage3{
+   width: 100%;
+   height: 300px;
+}
+
+.banerDivThreeText h4{
+    font-size: 20px;
+    display: flex;
+    gap: 5px;
+}
+
+.spanDiv3{
+    color: #ff7c0a;
+    font-weight: 600;
+}
+
+.banerDivThreeText h2{
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.banerDivThreeText p{
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+
+.banerDivThreeText button{
+    font-size: 15px;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    
+
+}
+
+
+.banerDivThreeText button:hover{
+    background-color: #ff7c0a;
+    transition: all 1.1s ;
+}
+
+
+@media only screen and (min-width:320px) and (max-width:768px){
+
+
+    .firstSectionDiv{
+        height: 80vh;
+        padding-top: 100px;
+    }
+    
+    .rightSectionOne{
+        display: none;
+    }
+
+    .leftAndRightDiv{
+        padding: 10px 5%;
+    }
+
+    .leftSectionOne h2{
+        font-size: 35px;
+    }
+
+    .leftSectionOne p{
+        font-size: 15px;
+    }
+
+
+    .leftSectionOne{
+        width: 100%;
+    }
+
+
+
+    .dotDiv{
+        position: absolute;
+        right: 40%;
+        top: 420px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .dotDiv p{
+        cursor: pointer;
+    }
+}
+
+
+@media only screen and (min-width:320px) and (max-width:768px){
+
+    .categorySection h2{
+        font-size: 25px;
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .categoryDiv{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .eachCategory:hover{
+        color: white;
+        background-color: #ff7c0a;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:768px){
+    .bannerDivOne{
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    
+}
+
+

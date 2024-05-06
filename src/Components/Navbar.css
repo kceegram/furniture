@@ -1,0 +1,266 @@
+
+.myNavBar{
+  
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.topNav{
+    display: flex;
+    color: rgb(102, 99, 99);;
+    background-color: white;
+    padding: 20px 10%;
+}
+
+.topNav p{
+    font-weight: 500;
+}
+
+.topNav ul{
+    margin-left: auto;
+    display: flex;
+    gap: 20px;
+}
+
+.topNav ul li{
+    list-style: none;
+    padding-right: 20px;
+    border-right: solid red 1px ;
+    align-items: center;
+    display: flex;
+    color: rgb(102, 99, 99);
+    gap: 8px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+.bottomNav{
+    display: flex;
+    align-items: center;
+    padding: 5px px;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin: 10px 10%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px
+}
+
+.bottomNavImg{
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+
+.bottomNavRight{
+    display: flex;
+    gap: 30px;
+    margin-left: auto;
+    align-items: center;
+}
+
+
+.singleDiv1{
+    list-style: none;
+    color: #ff7c0a;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.singleDiv1:hover{
+    color: rgb(16, 161, 16);
+    transition: all 1.1s ;
+}
+
+
+
+.bottomNav ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.bottomNav ul li{
+    list-style: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(102, 99, 99);
+}
+
+
+
+
+.bottomNav ul li:hover{
+    color: rgb(16, 161, 16);
+    transition: all 1.1s ;
+}
+
+
+.bottomNavIcons{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 22px;
+}
+
+.bottomNavContact{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+
+.menu{
+    background-color: #ff7c0a;
+    color: white;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 8px;
+    border-radius: 0  5px 5px 0;
+    cursor: pointer;
+}
+
+
+
+/* =========== Side Bar ============== */
+
+.sideBar{
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 400px;
+    padding: 30px;
+    color: gray;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 100vh;
+    z-index: 200;
+}
+
+
+.closeDiv{
+    display: flex;
+    align-items: center;
+}
+
+.closeDiv p{
+    margin-left: auto;
+    font-size: 18px;
+    cursor: pointer;
+    color: red;
+    background-color: pink;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    padding-right: 1px;
+    padding-left: 3px;
+    padding-top: 3px;
+    
+}
+
+
+.aboutDiv .myP{
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.aboutDiv .myh2{
+    margin-top: 20px;
+}
+
+.aboutDiv button{
+    margin: 20px 0;
+    background-color: rgb(110, 192, 110);
+    color: white;
+    border: none;
+    padding: 18px 40px;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.aboutDiv button:hover{
+    background-color: #ff7c0a;
+    transition: all 1.1s ;
+}
+
+
+.contactDiv{
+    padding-top: 60px;
+}
+
+.contactP{
+    color: rgb(65, 157, 65);
+    font-size: 15px;
+}
+
+.iconDiv{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+
+.iconDiv p{
+    color: #ff7c0a;
+    cursor: pointer;
+}
+
+.pointer{
+    position: fixed;
+    top: 80vh;
+    right: 50px;
+    font-size: 20px;
+    color: white;
+    background-color: #ff7c0a;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.menu2{
+    display: none;
+}
+
+
+@media only screen and (min-width:320px) and (max-width:768px){
+    .topNav{
+        display: none;
+    }
+
+    .bottomNav{
+        margin: 0;
+    }
+
+    .bottomNavRight{
+        display: none;
+    }
+
+    .menu2{
+        display: block;
+        margin-left: auto;
+        padding: 20px;
+        background-color: orange;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 25px;
+    }
+
+
+    .logo{
+        width: 150px;
+        height: 30px;
+    }
+}

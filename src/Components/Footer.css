@@ -1,0 +1,67 @@
+
+.myFooter{
+    background-color: white;
+}
+
+.topFooter{
+    padding: 20px 10%;
+    display: flex;
+    gap: 150px;
+    align-items: center;
+}
+
+.topFooterSub ul li{
+   list-style: none;
+   font-size: 13px;
+   line-height: 24px;
+   color: rgb(59, 55, 55);
+   font-weight: 400;
+   cursor: pointer;
+}
+
+.topFooterSub ul li:hover{
+    color: rgb(72, 209, 72);
+    transition: all 1.0s ;
+}
+
+.topFooterSub h3{
+   padding-bottom: 10px;
+   padding-top: 30px;
+   font-size: 17px;
+}
+
+
+.bottomFooter{
+    margin-top: 30px;
+}
+
+.bottomFooterSub{
+    padding: 20px 10%;
+    display: flex;
+    gap: 120px;
+    align-items: center;
+}
+
+.bottomFooterSub p{
+    font-size: 13px;
+}
+
+.specialP{
+    color:#ff7c0a ;
+    cursor: pointer;
+}
+
+.specialP:hover{
+    color: rgb(72, 209, 72);
+    transition: all 1.0s ;
+}
+
+.paymentImg{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+
+
